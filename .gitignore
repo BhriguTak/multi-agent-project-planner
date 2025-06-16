@@ -1,0 +1,55 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+ENV/
+
+# Environment Variables (contains API keys)
+.env
+
+# Python Cache
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debug scripts (optional - remove if you want to include them)
+debug_all.py
+yaml_debug.py
+simple_test.py
+create_files.py
